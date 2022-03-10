@@ -9,7 +9,7 @@ sudo apt-get install libglib2.0-dev libdbus-1-dev libusb-dev libudev-dev libical
 
 cd bluez-5.18
 
-.configure --enable-library
+./configure --enable-library
 
 make -j8 && sudo make install
 
